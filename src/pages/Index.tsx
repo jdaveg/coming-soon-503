@@ -57,17 +57,6 @@ const Index = () => {
               <RefreshCw className="mr-2 h-5 w-5 group-hover:rotate-180 transition-transform duration-500" />
               Reintentar
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="min-w-[200px]"
-              asChild
-            >
-              <a href="mailto:laura.sanchez@talentotech.com.co">
-                <Mail className="mr-2 h-5 w-5" />
-                Contactar
-              </a>
-            </Button>
           </div>
 
           {/* Footer Info */}
