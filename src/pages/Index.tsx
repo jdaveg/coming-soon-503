@@ -15,15 +15,15 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/20 flex items-center justify-center p-4 overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]"></div>
-      
+
       <div className="max-w-4xl w-full relative z-10">
         <div className="text-center space-y-8 animate-fade-in">
           {/* Illustration */}
           <div className="relative w-full max-w-2xl mx-auto mb-8">
             <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-primary/20 blur-3xl -z-10 animate-pulse-slow"></div>
-            <img 
-              src={illustration} 
-              alt="Servicio en mantenimiento" 
+            <img
+              src={illustration}
+              alt="Servicio en mantenimiento"
               className="w-full h-auto rounded-2xl shadow-2xl"
             />
           </div>
@@ -42,14 +42,14 @@ const Index = () => {
               Servicio Temporalmente no Disponible
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Estamos realizando mejoras en nuestro sistema para ofrecerte una mejor experiencia. 
+              Estamos realizando mejoras en nuestro sistema para ofrecerte una mejor experiencia.
               Volveremos pronto.
             </p>
           </div>
 
           {/* Actions */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button 
+            <Button
               onClick={handleRefresh}
               size="lg"
               className="group min-w-[200px] shadow-lg hover:shadow-xl transition-all duration-300"
@@ -57,13 +57,13 @@ const Index = () => {
               <RefreshCw className="mr-2 h-5 w-5 group-hover:rotate-180 transition-transform duration-500" />
               Reintentar
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="min-w-[200px]"
               asChild
             >
-              <a href="mailto:contacto@tudominio.com">
+              <a href="mailto:laura.sanchez@talentotech.com.co">
                 <Mail className="mr-2 h-5 w-5" />
                 Contactar
               </a>
